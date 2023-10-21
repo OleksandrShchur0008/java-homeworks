@@ -1,5 +1,7 @@
 package de.ait.homework36;
 
+import de.ait.homework36.Superhero;
+import de.ait.homework36.SuperheroManager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
