@@ -32,10 +32,6 @@ public class MobilePhone {
         return id;
     }
 
-    public void setId(UUID id) {
-        this.id = id;
-    }
-
     public String getBrand() {
         return brand;
     }
