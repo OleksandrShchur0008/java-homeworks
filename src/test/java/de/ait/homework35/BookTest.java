@@ -15,19 +15,16 @@ class BookTest {
         testBook = new Book("N1", "Unit-testing", "Java");
     }
 
-    @DisplayName("Test constructor")
     @Test
     void testCreateBookHappyPath() {
         assertNotNull(testBook);
     }
 
-    @DisplayName("Test Getter")
     @Test
     void testGetIsbn() {
         assertEquals("N1", testBook.getIsbn());
     }
 
-    @DisplayName("Test Setter")
     @Test
     void testSetIsbn() {
         testBook.setIsbn("N8");

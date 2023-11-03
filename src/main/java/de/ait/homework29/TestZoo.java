@@ -3,7 +3,7 @@ package de.ait.homework29;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ZooTest {
+public class TestZoo {
     public static void main(String[] args) {
         List<Animal> animalsList = new ArrayList<>();
         Zoo zoo = new Zoo(animalsList);

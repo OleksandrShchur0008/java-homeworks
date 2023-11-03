@@ -1,6 +1,6 @@
 package de.ait.homework28.homework28ex3;
 
-public class Test {
+public class TestBankAccount {
     public static void main(String[] args) {
         BankAccount bankAccount = new BankAccount(10, 1000, 1234);
         bankAccount.checkBalance();

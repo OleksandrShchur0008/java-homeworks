@@ -3,7 +3,7 @@ package de.ait.homework39;
 import java.util.HashSet;
 import java.util.Set;
 
-public class StudentDatabaseMainTest {
+public class TestStudentDatabase {
 
     public static void main(String[] args) {
         Set<Student> students = new HashSet<>();

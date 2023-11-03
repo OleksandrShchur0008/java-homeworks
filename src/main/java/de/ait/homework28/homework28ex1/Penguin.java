@@ -1,4 +1,4 @@
-package de.ait.homework28;
+package de.ait.homework28.homework28ex1;
 
 public class Penguin extends Bird {
     @Override

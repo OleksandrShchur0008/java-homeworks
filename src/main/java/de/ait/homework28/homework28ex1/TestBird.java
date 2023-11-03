@@ -1,6 +1,6 @@
-package de.ait.homework28;
+package de.ait.homework28.homework28ex1;
 
-public class BirdTest {
+public class TestBird {
     public static void main(String[] args) {
         Bird birdEagle = new Eagle();
         birdEagle.takeOff();

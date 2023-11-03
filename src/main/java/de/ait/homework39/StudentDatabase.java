@@ -12,31 +12,38 @@ public class StudentDatabase {
     }
 
     //нет необходимости делать проверку на наличие студента так как HashSet не позволит добавить мне дубликат
-    public void addStudent(Student student) {
-        if (students.add(student)) {
-            System.out.println("Student \"" + student.getName() + "\" successfully added into the database.");
-        } else {
-            System.out.println("Student \"" + student.getName() + "\" already exists in the database.");
+    public boolean addStudent(Student newStudent) {
+        if(newStudent == null){
+            return false;
         }
-    }
-
-    public void removeStudent(Student student) {
-        if (students.contains(student)) {
-            students.remove(student);
-            System.out.println("Student \"" + student.getName() + "\" successfully removed from the database.");
-        } else {
-            System.out.println("Student \"" + student.getName() + "\" to remove not found in database.");
-            //throw new IllegalArgumentException("Student to remove not found in database.");
-        }
-
-    }
-
-    public boolean containsStudent(Student student) {
-        if (students.contains(student)) {
-            System.out.println("Student \"" + student.getName() + "\" is in database.");
+        if (students.add(newStudent)) {
+            System.out.println("Student \"" + newStudent.getName() + "\" successfully added into the database.");
             return true;
         } else {
-            System.out.println("Student \"" + student.getName() + "\" not found");
+            System.out.println("Student \"" + newStudent.getName() + "\" already exists in the database.");
+            return false;
+        }
+    }
+
+    public boolean removeStudent(Student deleteStudent) {
+        if (students.contains(deleteStudent)) {
+            students.remove(deleteStudent);
+            System.out.println("Student \"" + deleteStudent.getName() + "\" successfully removed from the database.");
+            return true;
+        } else {
+            System.out.println("Student \"" + deleteStudent.getName() + "\" to remove not found in database.");
+            //throw new IllegalArgumentException("Student to remove not found in database.");
+            return false;
+        }
+
+    }
+
+    public boolean containsStudent(Student checkStudent) {
+        if (students.contains(checkStudent)) {
+            System.out.println("Student \"" + checkStudent.getName() + "\" is in database.");
+            return true;
+        } else {
+            System.out.println("Student \"" + checkStudent.getName() + "\" not found");
             return false;
         }
     }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-public class CinemaTest {
+public class TestCinema {
     public static void main(String[] args) {
         Film filmTransformers1 = new FeatureFilm("Transformers 1", 144, 9.8, "Action/Science Fiction", "Michael Bay", List.of("Shaya Labaf", "Megan Fox", "Josh Demel"), 30 );
         Film filmTransformers4 = new FeatureFilm("Transformers 4 : Age of Extinction", 165,9.5,"Action/Science Fiction", "Michael Bay",List.of("Mark Wahlberg", "Nikola Peitz", "Jack Rainer"), 24);

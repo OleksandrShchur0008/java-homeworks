@@ -3,7 +3,7 @@ package de.ait.homework27;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShopTest {
+public class TestShop {
     public static void main(String[] args) {
         List<Product> products = createProducts();
 

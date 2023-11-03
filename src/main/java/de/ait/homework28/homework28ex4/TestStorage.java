@@ -1,6 +1,6 @@
 package de.ait.homework28.homework28ex4;
 
-public class StorageTest {
+public class TestStorage {
     public static void main(String[] args) {
         FileStorage fileStorage = new FileStorage(5);
         fileStorage.store("Item 1");

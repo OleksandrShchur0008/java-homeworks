@@ -34,20 +34,21 @@ class StudentDatabaseTest {
 
     @Test
     void addStudentHappyPath() {
-        studentDatabase.addStudent(studentNikita);
-        studentDatabase.addStudent(studentSasha);
-        studentDatabase.addStudent(studentSlavik);
-        studentDatabase.addStudent(studentShoni);
-        studentDatabase.addStudent(studentDima);
+        assertTrue(studentDatabase.addStudent(studentNikita));
+        assertTrue(studentDatabase.addStudent(studentSasha));
+        assertTrue(studentDatabase.addStudent(studentSlavik));
+        assertTrue(studentDatabase.addStudent(studentShoni));
+        assertTrue(studentDatabase.addStudent(studentDima));
         assertEquals(5, studentDatabase.printAllStudents().size());
     }
 
     @Test
     void addStudentError() {
-        studentDatabase.addStudent(studentDima);
+        assertTrue(studentDatabase.addStudent(studentDima));
         assertEquals(1, studentDatabase.printAllStudents().size());
-        studentDatabase.addStudent(studentDima);
+        assertFalse(studentDatabase.addStudent(studentDima));
         assertEquals(1, studentDatabase.printAllStudents().size());
+        assertFalse(studentDatabase.addStudent(null));
     }
 
     @Test
@@ -55,7 +56,7 @@ class StudentDatabaseTest {
         studentDatabase.addStudent(studentNikita);
         studentDatabase.addStudent(studentSasha);
         assertEquals(2, studentDatabase.printAllStudents().size());
-        studentDatabase.removeStudent(studentSasha);
+        assertTrue(studentDatabase.removeStudent(studentSasha));
         assertEquals(1, studentDatabase.printAllStudents().size());
     }
 
@@ -64,7 +65,7 @@ class StudentDatabaseTest {
         studentDatabase.addStudent(studentNikita);
         studentDatabase.addStudent(studentSasha);
         assertEquals(2, studentDatabase.printAllStudents().size());
-        studentDatabase.removeStudent(studentSlavik);
+        assertFalse(studentDatabase.removeStudent(studentSlavik));
         assertEquals(2, studentDatabase.printAllStudents().size());
     }
 

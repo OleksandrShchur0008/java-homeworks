@@ -1,6 +1,6 @@
 package de.ait.homework26;
 
-public class VehicleTest {
+public class TestVehicle {
     public static void main(String[] args) {
         Vehicle vehicleCar = new Car("Audi A8", "Gasoline");
         vehicleCar.start();

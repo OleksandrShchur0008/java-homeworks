@@ -20,7 +20,7 @@ class BookManagerTest {
         testBook = new Book("N1", "Unit-testing", "Java");
     }
 
-    @DisplayName("Test if book is adding into List")
+    @DisplayName("if book is adding into List")
     @Test
     void testAddBookHappyPath() {
         assertEquals(0, bookManager.getBooks().size());
@@ -33,7 +33,7 @@ class BookManagerTest {
         }
     }
 
-    @DisplayName("Test adding the same book into List must throw error")
+    @DisplayName("adding the same book into List must throw error")
     @Test
     void testAddBookError() {
         assertEquals(0, bookManager.getBooks().size());
@@ -41,7 +41,7 @@ class BookManagerTest {
         assertThrows(IllegalArgumentException.class, () -> {bookManager.addBook(testBook);});
     }
 
-    @DisplayName("Test removing book from list")
+    @DisplayName("removing book from list")
     @Test
     void testRemoveBookHappyPath() {
         bookManager.addBook(testBook);
@@ -50,7 +50,7 @@ class BookManagerTest {
         assertEquals(0,resultListBook.size());
     }
 
-    @DisplayName("Test removing book with wrong Isbn from List must throw error")
+    @DisplayName("removing book with wrong Isbn from List must throw error")
     @Test
     void testRemoveBookError() {
         bookManager.addBook(testBook);
