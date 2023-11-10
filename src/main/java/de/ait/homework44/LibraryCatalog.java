@@ -31,7 +31,7 @@ public class LibraryCatalog {
                 return true;
             }
         }
-        LOGGER.error("Book is not in List or null.");
+        LOGGER.error("Book not found.");
         return false;
     }
 
@@ -50,6 +50,9 @@ public class LibraryCatalog {
     public List<Book> listAllBooks() {
         List<Book> copyBooks = new ArrayList<>(books);
         LOGGER.info("List of books has been requested.");
+        if(copyBooks.isEmpty()) {
+            LOGGER.info("Library is empty.");
+        }
         return copyBooks;
     }
 

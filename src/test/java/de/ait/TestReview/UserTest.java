@@ -1,4 +1,4 @@
-package de.ait.Review;
+package de.ait.TestReview;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

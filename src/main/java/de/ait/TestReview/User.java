@@ -1,4 +1,4 @@
-package de.ait.Review;
+package de.ait.TestReview;
 
 import java.util.ArrayList;
 import java.util.List;

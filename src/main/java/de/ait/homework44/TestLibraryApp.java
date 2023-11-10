@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class LibraryApp {
+public class TestLibraryApp {
     Scanner scanner = new Scanner(System.in);
     LibraryCatalog myLibraryCatalog = new LibraryCatalog();
 
     public void appSystem(){
         System.out.println("Welcome to Library Application!");
         while (true) {
-            System.out.println("-----------------------------" +
+            System.out.println("---------------------------" +
                     "\nChoose Your Movement:" +
                     "\n1 - Add book to Library. " +
                     "\n2 - Remove book from Library." +
@@ -78,7 +78,7 @@ public class LibraryApp {
     }
 
     public static void main(String[] args) {
-        LibraryApp myLibraryApp = new LibraryApp();
+        TestLibraryApp myLibraryApp = new TestLibraryApp();
         myLibraryApp.appSystem();
     }
 }

@@ -1,4 +1,4 @@
-package de.ait.Review;
+package de.ait.TestReview;
 
 public class Calculator2 {
 
