@@ -1,0 +1,17 @@
+2023-11-09 19:22:41.602 [main] ERROR d.a.h.TestAccountRegistration - Password is less than 3 symbols or more than 16
+2023-11-09 19:22:41.616 [main] ERROR d.a.h.TestAccountRegistration - IllegalArgumentException
+2023-11-09 19:23:54.924 [main] ERROR d.a.h.TestAccountRegistration - Password is less than 8 symbols
+2023-11-09 19:23:54.929 [main] ERROR d.a.h.TestAccountRegistration - IllegalArgumentException
+2023-11-09 19:24:05.830 [main] ERROR d.a.h.TestAccountRegistration - Password is less than 8 symbols
+2023-11-09 19:24:05.830 [main] ERROR d.a.h.TestAccountRegistration - IllegalArgumentException
+2023-11-09 19:24:50.071 [main] ERROR d.a.h.TestAccountRegistration - Password is less than 8 symbols
+2023-11-09 19:24:50.072 [main] ERROR d.a.h.TestAccountRegistration - IllegalArgumentException
+2023-11-09 19:45:37.956 [main] ERROR d.a.h.TestAccountRegistration - Password is less than 8 symbols
+2023-11-09 19:45:37.961 [main] ERROR d.a.h.TestAccountRegistration - IllegalArgumentException
+2023-11-09 19:46:38.957 [main] ERROR d.a.h.TestAccountRegistration - Password is less than 8 symbols
+2023-11-09 19:46:38.962 [main] ERROR d.a.h.TestAccountRegistration - IllegalArgumentException
+2023-11-09 19:46:53.330 [main] INFO  d.a.h.TestAccountRegistration - Registration successful.
+2023-11-09 19:47:59.702 [main] INFO  d.a.h.TestAccountRegistration - Registration successful.
+2023-11-09 19:48:02.379 [main] ERROR d.a.h.TestAccountRegistration - Password is less than 8 symbols
+2023-11-09 19:48:02.381 [main] ERROR d.a.h.TestAccountRegistration - IllegalArgumentException
+2023-11-09 19:48:42.622 [main] INFO  d.a.h.TestAccountRegistration - Registration successful.

@@ -1,0 +1,7 @@
+2023-11-04 00:00:37.935 [main] INFO  de.ait.homework44.LibraryCatalog - List of books has been requested.
+2023-11-04 00:05:25.059 [main] INFO  de.ait.homework44.LibraryCatalog - Book "q" has been added successfully.
+2023-11-04 00:05:33.261 [main] INFO  de.ait.homework44.LibraryCatalog - Book "q" has been removed successfully.
+2023-11-04 12:17:19.718 [main] INFO  de.ait.homework44.LibraryCatalog - Book "DonkeyHot" has been added successfully.
+2023-11-04 12:17:30.694 [main] INFO  de.ait.homework44.LibraryCatalog - Book "DonkeyHot" has found successfully.
+2023-11-04 12:17:41.685 [main] ERROR de.ait.homework44.LibraryCatalog - Book is not in List.
+2023-11-04 12:17:56.309 [main] INFO  de.ait.homework44.LibraryCatalog - List of books has been requested.

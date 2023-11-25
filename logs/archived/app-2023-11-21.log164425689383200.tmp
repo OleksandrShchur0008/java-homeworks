@@ -1,0 +1,2 @@
+2023-11-21 19:15:05.876 [main] INFO  d.a.homework50.DirectoryFileCreator - Directory C:\Aufgaben\aithomeworks\MyDirectory has been successfully created.
+2023-11-21 19:15:05.897 [main] INFO  d.a.homework50.DirectoryFileCreator - File MyFile.txt in directory C:\Aufgaben\aithomeworks\MyDirectory was successfully created.
