@@ -1,0 +1,3 @@
+Name: Kangaroo, Species: Macropus, Age: 9
+Name: Zebra, Species: Grevys, Age: 15
+Name: Rhino, Species: White, Age: 22
