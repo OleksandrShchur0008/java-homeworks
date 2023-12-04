@@ -13,7 +13,7 @@ public class Eagle extends Bird {
 
     @Override
     public void fly() {
-        System.out.println("I'm Flew for a long time ");
+        System.out.println("I'm Flew for a long Time ");
     }
 
     @Override
