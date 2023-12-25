@@ -11,10 +11,10 @@ public class LambdaStudentsUtils {
 
     public static void main(String[] args) {
 
-        Student student1 = new Student("Tyrese","Haliburton", 20, 0.6);
-        Student student2 = new Student("Kyle","Lowry", 19,3.5);
-        Student student3 = new Student("Steve", "Madden", 21,2.2);
-        Student student4 = new Student("Ryan", "Gosling", 21,1.8);
+        Student student1 = new Student("Tyrese","Haliburton", 20, 1.6);
+        Student student2 = new Student("Kyle","Lowry", 19,3.3);
+        Student student3 = new Student("Steve", "Madden", 21,2.3);
+        Student student4 = new Student("Ryan", "Gosling", 21,1.9);
         Student student5 = new Student("Anthony", "Joshua", 20,4.5);
         Student student6 = new Student("Bronny", "James", 19,4.1);
 
