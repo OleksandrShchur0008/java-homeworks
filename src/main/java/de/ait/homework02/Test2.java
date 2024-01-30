@@ -1,4 +1,4 @@
-package de.ait.homework2;
+package de.ait.homework02;
 
 public class Test2 {
     public static void main(String[] args) {

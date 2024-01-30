@@ -1,4 +1,4 @@
-package de.ait.homework3;
+package de.ait.homework03;
 
 public class homework22072023ex4 {
 

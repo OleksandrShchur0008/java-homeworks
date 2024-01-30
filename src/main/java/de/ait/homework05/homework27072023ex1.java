@@ -1,4 +1,4 @@
-package de.ait.homework5;
+package de.ait.homework05;
 
 public class homework27072023ex1 {
 

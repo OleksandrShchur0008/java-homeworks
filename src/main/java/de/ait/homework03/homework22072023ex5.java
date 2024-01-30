@@ -1,4 +1,4 @@
-package de.ait.homework3;
+package de.ait.homework03;
 
 import java.util.Scanner;
 
